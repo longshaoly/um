@@ -36,7 +36,7 @@ public class TestController {
     public JSONObject findUserById(HttpServletRequest request,HttpServletResponse response) { 
 		JSONObject result =new JSONObject();
 		//查询数据
-        result.put("result",userService.getUser(1));
+        result.put("refdsfsdssultr232422242esult",userService.getUser(1));
         return result;  
     } 
 }
